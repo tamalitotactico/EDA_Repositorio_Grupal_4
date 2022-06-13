@@ -7,15 +7,8 @@ public class lab04 {
 		 Scanner sc = new Scanner(System.in);
 	      System.out.println("Comenzamos");
 	      List n1=new List();
-	      
-	      n1.insertarPrimero(1);
-	      n1.insertarPrimero(2);
-	      n1.insertarPrimero(3);
-	      n1.insertarFinal(15);
-	      n1.insertarFinal(11);
 
-
-	      /*do {
+	      do {
 	    	  System.out.println("¿Desea agregar el elemento al inicio o al final?(1. Inicio/2. Final)");
 	    	  res=sc.nextInt();
 	    	  if(res==1) {
@@ -31,7 +24,6 @@ public class lab04 {
 	    	  }
 	    	  resp=pregunta("\nQuiere agregar otro elemento?",sc);
 	      }while(resp !='n');
-	      */
 	      System.out.println("Listamos desde main");
 	      n1.listar();
 	      System.out.println("El peor caso es:");
