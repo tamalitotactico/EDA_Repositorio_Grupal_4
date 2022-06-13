@@ -6,6 +6,7 @@ public class lab04 {
 
 	public static void main(String args[]) {
 		automatico();
+		// aMano(); //<-- en caso se quiera insertar elemento por elemento.
 	}
 
 	public static void aMano() {
